@@ -7,8 +7,8 @@ A barebones Node.js bot using [discord.js](https://github.com/hydrabolt/discord.
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git git@github.com:SloppierKitty7/Sloppiers-heroku-discord-bot.git # or clone your own fork
-cd Sloppiers-heroku-discord-bot
+git git@github.com:HiItsMeHaHa/Foxlife-discord-bot.git # or clone your own fork
+cd Foxlife-discord-bot
 npm install
 npm start
 ```
