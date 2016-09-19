@@ -24,6 +24,8 @@ setInterval(function() {
 	
 }, [1]);
 
+bot.login("MjI3MjA0NzIwNjUyMDU4NjM0.CsCwaQ.DOkzw6x3oLZ6hXbifGX5tGdmhf4");
+
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
