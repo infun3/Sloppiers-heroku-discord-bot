@@ -14,7 +14,9 @@ bot.on("message", function(message)) {
 				message.member.guild.createGuild({name: message.author.id});
 			}
 			message.member.addRole(message.member.guild.roles.find("name", message.author.id));
+			colorrole = message.member.roles.find("name", message.author.id);
 		}
+		colorrole.setColor(Math.random()*16777216);
 	}
 });
 
