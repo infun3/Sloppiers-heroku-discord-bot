@@ -4,10 +4,17 @@ var Discord = require("discord.js");
 var ver ="0.86";
 var bot = new Discord.Client();
 var getJSON = require('get-JSON');
+var colorrole;
 
 bot.on("message", function(message)) {
 	if(message.content == "!color") {
-		
+		colorrole = message.member.roles.find("name", message.author.id);
+		if(colorrole == null) {
+			if(message.member.guild.roles.find("name", message.author.id) == null) {
+				message.member.guild.createGuild({name: message.author.id});
+			}
+			message.member.addRole(message.member.guild.roles.find("name", message.author.id));
+		}
 	}
 });
 
