@@ -1,12 +1,14 @@
-var express = require('express')
-var app = express()
+var express = require('express');
+var app = express();
 var Discord = require("discord.js");
-var ver ="0.86"
+var ver ="0.86";
 var bot = new Discord.Client();
 var getJSON = require('get-JSON');
 
 bot.on("message", function(message)) {
-	
+	if(message.content == "!color") {
+		
+	}
 });
 
 setInterval(function() {
