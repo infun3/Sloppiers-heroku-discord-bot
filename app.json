@@ -1,6 +1,6 @@
 {
-  "name": "Node.js Sample",
-  "description": "A barebones Node.js app using Express 4",
+  "name": "Foxlife Discord Bot",
+  "description": "The bot for the Foxlife discord server",
   "repository": "https://github.com/HiItsMeHaHa/Foxlife-discord-bot",
   "logo": "https://theinfosphere.org/images/thumb/6/69/RobotFox.png/220px-RobotFox.png",
   "keywords": ["node", "express", "static"]
