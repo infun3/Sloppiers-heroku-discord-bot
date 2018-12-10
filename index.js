@@ -3,7 +3,7 @@ var app = express()
 var Discord = require("discord.js");
 var ver ="0.86"
 var mybot = new Discord.Client();
-var getJSON = require('get-JSON');
+var getJSON = require('get-json');
 
 mybot.on("ready", function () {
 	console.log("Ready to begin! Serving in " + mybot.channels.length + " channels");
@@ -21,7 +21,7 @@ mybot.on("message", function(message) {
         });
     }
 });
-//long comands 
+//long comands
 mybot.on("message", function(message){
 
             if( message.content === "!my_avatar" ){
@@ -45,7 +45,7 @@ mybot.on("message", function(message){
 
 
 
-//bot stuff 
+//bot stuff
 mybot.on("message", function(message) {
     if(message.content === "!help") {
         mybot.reply(message, "**My current Commands** ```!about_bot, !live, !my_avatar, !twitch, !youtube, hype, cry```" );
